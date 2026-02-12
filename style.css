@@ -371,7 +371,12 @@ display: none;
     font-size: 54px;
     font-weight: 800;
     margin-bottom: 55px;
-    background: linear-gradient(90deg, #2c7be5, #1a3d6d);
+   background: linear-gradient(
+        90deg,
+        #1bb3a9,
+        #0fb9b1,
+        #1a8ecf
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1159,4 +1164,18 @@ display: none;
     .domain-text p {
         margin-bottom: 10px;
     }
+    .about-container {
+        max-width: 100% !important;
+        padding: 0 26px;   /* Balanced breathing room */
+    }
+
+    .about-content {
+        max-width: 100% !important;
+        width: 100%;
+        padding: 28px 24px;  /* Slight internal comfort */
+    }
+    .hero{
+        padding-top: 25px;   /* increase this if needed */
+    }
+   
 }
